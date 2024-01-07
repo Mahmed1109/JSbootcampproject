@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+
+    background-color: rgb(178, 172, 136)
+}
+
+#wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
+    /* Adjusted to 'auto' */
+    max-width: 80%;
+    /* Set a maximum width if needed */
+
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+
+
+#word-display {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#wrong-letters {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#guess-input {
+    margin-top: 20px;
+}
+
+#userinput {
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#para {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    padding: 10px;
+}

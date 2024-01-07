@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes backgroundtransitions {
+    0% {
+        background-color: rgb(152, 152, 156);
+    }
+
+    25% {
+        background-color: rgb(100, 125, 0);
+    }
+
+    50% {
+        background-color: rgb(70, 12, 123);
+    }
+
+    75% {
+        background-color: rgb(124, 40, 70);
+    }
+
+    100% {
+        background-color: rgb(20, 200, 200);
+    }
+}
+
+body {
+    background-color: rgb(152, 152, 156);
+    animation-name: backgroundtransitions;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 40px
+}
+
+img {
+    width: 100px;
+    height: 80px;
+    border: 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.output {
+    border: 1px solid;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    right: 25%;
+    margin-top: 50px;
+    padding: 30px 0px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px 0;
+}
